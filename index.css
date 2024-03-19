@@ -1,23 +1,22 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", 'Times New Roman', Times, serif;
 }
 a {
   text-decoration: initial;
 }
 .header {
   text-align: left;
-  background: rgba(137, 183, 137, 0.889);
-  color: hsl(120, 20%, 99%);
+  background: rgb(39, 149, 208);
+  color: rgb(22, 24, 22);
   font-size: 20px;
 }
 .hero {
   width: 100%;
   height: 100vh;
-  background: rgba(137, 183, 137, 0.889);
+  background: rgb(39, 149, 208);
   background-size: cover;
 
 }
@@ -46,7 +45,7 @@ nav ul li a {
 
 }
 nav ul li a:hover {
-  color: #fd4766;
+  color: white;
 }
 nav ul li a:after {
   content: "";
@@ -102,7 +101,7 @@ nav ul li a:hover:after {
   -webkit-text-fill-color: transparent;
 }
 .content h1 {
-  color: #1f1f25;
+  color: #000000;
   font-size: 75px;
   font-weight: 900;
   line-height: 90px;
@@ -114,7 +113,7 @@ nav ul li a:hover:after {
 }
 .content p {
   width: 55%;
-  color: #202020;
+  color: black;
   margin-top: 25px;
   margin-bottom: 30px;
 }
